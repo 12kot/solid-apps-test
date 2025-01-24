@@ -49,9 +49,8 @@
   height: 9px;
   border-radius: 16px;
 
-  background-blend-mode: overlay;
   box-shadow: 0px 1px 3px 0px #ffffff38 inset;
-  backdrop-filter: blur(40px);
+  background: #a0a0a015;
 
   overflow: visible;
 }
@@ -71,6 +70,7 @@
   background: linear-gradient(90deg, #000aff 0%, #3cf8ae 54.82%, #fead17 100%);
   box-shadow: 0px 1px 3px 0px #ffffff38 inset;
   filter: blur(8px);
+  backdrop-filter: blur(40px);
 }
 
 .lineLoad {

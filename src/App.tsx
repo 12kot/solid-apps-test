@@ -12,6 +12,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const callback = (e: TouchEvent) => {
+      e.preventDefault();
       const event = (e as any).originalEvent || e;
       if (event.scale !== 1) {
         event.preventDefault();
@@ -24,6 +25,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     if (SHOULD_FULLLSCREEN) {
+      window.Telegram.WebApp?.expand();
       //@ts-ignore
       window.Telegram.WebApp?.requestFullscreen();
     } else {

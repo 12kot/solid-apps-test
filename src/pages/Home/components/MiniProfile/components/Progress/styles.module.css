@@ -1,0 +1,38 @@
+.container {
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  gap: 6px;
+}
+
+.card span {
+  font-size: 0.625rem;
+  line-height: 0.8125rem;
+}
+
+.cardIcon {
+  width: 36px;
+  height: 36px;
+  border-radius: 11.52px;
+}
+
+.cardIcon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+}

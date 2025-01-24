@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.padding {
+  padding: 0 16px;
+  z-index: 10;
+}
+
+.button {
+  width: 80%;
+  margin: 0 auto 85px;
+
+  z-index: 10;
+}

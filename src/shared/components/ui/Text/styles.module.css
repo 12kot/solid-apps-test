@@ -1,0 +1,42 @@
+.span,
+.h1, h3,
+.p {
+  font-family: 'Tektur', serif;
+  text-wrap: wrap;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+h1 {
+  color: var(--txt);
+  font-size: var(--font-h1);
+  line-height: var(--font-h1-height);
+
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.h3 {
+  color: var(--txt);
+  font-size: var(--font-h3);
+  line-height: var(--font-h3-height);
+
+  font-weight: 500;
+}
+
+.p {
+  color: var(--txt);
+  font-size: var(--font-p);
+  line-height: var(--font-p-height);
+
+  font-weight: 500;
+}
+
+.span {
+  color: var(--txt-sec);
+  font-size: var(--font-span);
+  line-height: var(--font-span-height);
+
+  font-weight: 500;
+}

@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  max-width: 60%;
+}
+
+.name {
+  text-align: start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.robots {
+  display: flex;
+  gap: 8px;
+}
+
+.robot {
+  border-radius: 10.24px;
+}
+
+.robot svg {
+  width: 21.33px;
+  height: 21.33px;
+}
+
+.activeRobots {
+  display: flex;
+  flex-direction: column;
+}
+
+.activeRobots p {
+  font-size: var(--font-span);
+  line-height: var(--font-span-height);
+}
+
+.activeRobots span {
+  font-size: 0.625rem;
+  line-height: 0.8125rem;
+  text-wrap: nowrap;
+}

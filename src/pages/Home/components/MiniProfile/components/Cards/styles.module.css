@@ -1,0 +1,41 @@
+.container {
+  margin-top: 8px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  gap: 4px;
+
+  background-blend-mode: overlay;
+  box-shadow: 0px 1px 3px 0px #ffffff38 inset;
+  backdrop-filter: blur(40px);
+
+  padding: 12px 0 9px;
+}
+
+.cardIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 15.36px;
+}
+
+.card p {
+  font-size: var(--font-span);
+  line-height: var(--font-span-height);
+}
+
+.cardIcon img {
+  width: 48px;
+  height: 48px;
+}

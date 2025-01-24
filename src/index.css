@@ -1,0 +1,38 @@
+:root {
+  --blur-gray: #241f118f;
+
+  --txt: #ffffff;
+  --txt-sec: #ffffff80;
+
+  --font-h1: 3.375rem;
+  --font-h1-height: 3.75rem;
+  --font-h3: 1.5rem;
+  --font-h3-height: 1.95rem;
+
+  --font-p: 1rem;
+  --font-p-height: 1.3rem;
+  --font-span: 0.875rem;
+  --font-span-height: 1.1375rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: 'Tektur', serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+li {
+  list-style-type: none;
+}

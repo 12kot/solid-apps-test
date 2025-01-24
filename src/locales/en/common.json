@@ -1,0 +1,14 @@
+{
+  "logo": "Wars Stars: Expedition",
+  "loading": "Loading",
+  "activeRobots": "active robots",
+  "amountOfEnergy": "amount of energy",
+  "timeUntilEnergyEnds": "time until energy ends",
+
+  "navigation": {
+    "radar": "Radar",
+    "marker": "Marker",
+    "tasks": "Tasks",
+    "friends": "Friends"
+  }
+}

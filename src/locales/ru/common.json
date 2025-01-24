@@ -1,2 +1,16 @@
 {
+  "logo": "Звезды войн: Экспедиция",
+  "loading": "Загрузка",
+  "activeRobots": "активные роботы",
+  "starship": "Звездолет",
+  "amountOfEnergy": "кол-во энергии",
+  "timeUntilEnergyEnds": "до восстановления",
+  "chargeStorageDevices": "Устройства для хранения заряда",
+
+  "navigation": {
+    "radar": "Радар",
+    "marker": "Маркер",
+    "tasks": "Задачи",
+    "friends": "Друзья"
+  }
 }

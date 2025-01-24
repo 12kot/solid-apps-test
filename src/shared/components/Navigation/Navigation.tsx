@@ -50,7 +50,7 @@ export const Navigation: React.FC = () => {
         <NavigationLinks cards={CARDS2} />
       </nav>
       <div className={styles.name}>
-        <P>Starship</P>
+        <P>{t('starship')}</P>
         <div className={styles.blur} />
       </div>
       <button className={styles.starship}>

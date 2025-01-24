@@ -3,7 +3,9 @@
   "loading": "Loading",
   "activeRobots": "active robots",
   "amountOfEnergy": "amount of energy",
+  "starship": "Starship",
   "timeUntilEnergyEnds": "time until energy ends",
+  "chargeStorageDevices": "Charge storage devices",
 
   "navigation": {
     "radar": "Radar",

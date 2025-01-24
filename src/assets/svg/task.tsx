@@ -3,8 +3,8 @@ export const SVGTask: React.FC = () => {
     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g opacity="0.3">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M15 1.25634C14.9381 1.25213 14.8758 1.25 14.8133 1.25H8.75C6.12665 1.25 4 3.37665 4 6V18C4 20.6234 6.12665 22.75 8.75 22.75H16.75C19.3734 22.75 21.5 20.6234 21.5 18V8.75H17.75C16.2312 8.75 15 7.51878 15 6V1.25634ZM8 12C8 11.5858 8.33579 11.25 8.75 11.25H16.75C17.1642 11.25 17.5 11.5858 17.5 12C17.5 12.4142 17.1642 12.75 16.75 12.75H8.75C8.33579 12.75 8 12.4142 8 12ZM8.75 16.25C8.33579 16.25 8 16.5858 8 17C8 17.4142 8.33579 17.75 8.75 17.75H12.75C13.1642 17.75 13.5 17.4142 13.5 17C13.5 16.5858 13.1642 16.25 12.75 16.25H8.75Z"
           fill="white"
         />
@@ -13,8 +13,8 @@ export const SVGTask: React.FC = () => {
           fill="white"
         />
       </g>
-      <path d="M8.75 12H16.75" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-      <path d="M8.75 17H12.75" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+      <path d="M8.75 12H16.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M8.75 17H12.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
   );
 };

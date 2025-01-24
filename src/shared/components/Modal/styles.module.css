@@ -9,6 +9,9 @@
 
   backdrop-filter: blur(10px);
   background-color: var(--blur-gray);
+
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .container.active {
@@ -25,7 +28,7 @@
   transform: translateX(-100%);
   transition-property: transform;
   transition-duration: 0.3s;
-  padding: 28px 16px 16px;
+  padding: calc(var(--tg-content-safe-area-inset-top) + var(--fullscreen-page-top)) 16px 16px;
 }
 
 .active .content {

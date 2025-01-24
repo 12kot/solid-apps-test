@@ -13,6 +13,9 @@
   --font-p-height: 1.3rem;
   --font-span: 0.875rem;
   --font-span-height: 1.1375rem;
+
+  --max-width: 450px;
+  --fullscreen-page-top: 70px;
 }
 
 body {
@@ -35,4 +38,8 @@ button {
 
 li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
